@@ -1,0 +1,100 @@
+<!--
+    Assignment 2
+    Purpose: Hands-on experience with HTML and CSS
+    Created by: Meeran Haq, 8711306
+    Date: 2023/12/07
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Nikola-Tesla, pioneer of alternating-current">
+    <meta name="description" content="Webpage about Nikola-Tesla">
+    
+    <title>Assignment 2 - Nikola Tesla Web Page</title>
+
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+
+</head>
+
+    <header class="class1">
+        <h1> Nikola Tesla </h1>
+    </header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="">Media</a>
+                    <ul>
+                        <li><a href="gallery.html">Gallery</li></a>
+                        <li><a href="media.html">Videos</li></a>                     
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+
+    <main>
+        <section>
+            <h2> Contact </h2>
+
+            <input type="date" value="2023-12-10">
+            <br>
+
+            <form action="process-form" method="post">
+ 
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" autofocus required>
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                
+                <fieldset id="Section">
+                    <legend>What section of PROG1245 are you in? </legend>
+                    <label for="Section 4" required>Section 4</label>
+                    <input type="radio" id="4" name="sec" value="4">
+                   <br> <label for="Section 5">Section 5</label>
+                    <input type="radio" id="5" name="sec" autofocus value="5" checked>
+                   <br> <label for="Section 8">Section 8</label>
+                    <input type="radio" id="8" name="sec" value="8">
+                </fieldset>
+                    <br>
+                    <br>
+                <label for="comment">Comments</label>
+                    <br>
+                    <textarea id="comment" rows="4" name="comment"></textarea>
+                    <br>
+        
+                <input type="checkbox" value="true" id="human" name="human">
+                <label for="human">I am a human</label>
+                    <br>
+        
+                <input type="submit" id="submit" value="Submit">
+        
+            </form> 
+        </section>
+
+    </main>
+
+    <aside>
+        <h2> Additional Information </h2>
+        <ul>
+            <li> <a href="https://en.wikipedia.org/wiki/Nikola_Tesla"> Wikipedia </a> </li>
+            <br>
+            <li> <a href="https://www.britannica.com/biography/Nikola-Tesla"> Britannica </a> </li>
+            <br>
+            <li> <a href="https://www.history.com/topics/inventions/nikola-tesla"> History Channel </a> </li>
+        </ul>
+    </aside>
+
+    <footer class="class1">
+        <p> &copy; Meeran Haq, 2023 </p>
+    </footer>
+
+</html>

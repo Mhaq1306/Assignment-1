@@ -1,8 +1,8 @@
 <!--
-    Assignment 1
+    Assignment 2
     Purpose: Hands-on experience with HTML and CSS
     Created by: Meeran Haq, 8711306
-    Date: 2023/11/10
+    Date: 2023/12/07
 -->
 
 <!DOCTYPE html>
@@ -13,47 +13,84 @@
     <meta name="keywords" content="Nikola-Tesla, pioneer of alternating-current">
     <meta name="description" content="Webpage about Nikola-Tesla">
     
-    <title>Assignment 1 - Nikola Tesla Web Page</title>
+    <title>Assignment 2 - Nikola Tesla Web Page</title>
 
-    <link rel="stylesheet" href="CSS/styles.css">
     <link rel="stylesheet" href="CSS/normalize.css">
-
-</head>
+    <link rel="stylesheet" href="CSS/styles.css">
 
 <body>
 
-    <header>
+</head>
+
+    <header class="class1">
         <h1> Nikola Tesla </h1>
     </header>
 
-    <main>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="">Media</a>
+                    <ul>
+                        <li><a href="gallery.html">Gallery</li></a>
+                        <li><a href="media.html">Videos</li></a>                     
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
 
-        <section>
-            <h2> Biography </h2>
-            <p> <strong>Nikola Tesla</strong>, (born July 9/10, 1856, Smiljan, Austrian Empire [now in Croatia]—died January 7, 1943, New York, New York, U.S.), Serbian American inventor and engineer who discovered and patented the rotating magnetic field, the basis of most <i>alternating-current machinery</i>. </p>
-        </section>
+    <section>
 
-        <section>
-            <h2> Images </h2>
-            <figure>
-                <img class="mainimg" src="images/Nikola Tesla.jpg" alt="black and white portrait picture of Nikola-Tesla"> 
-                <figcaption> Image of Nikola Tesla </figcaption>
-            </figure>
+        <h2> Biography </h2>
+            <main class="container">
+                
 
-            <figure> 
-                <img class="mainimg" src="https://cdn.britannica.com/49/4649-050-BB5F0463/Nikola-Tesla.jpg" alt="Nikola-Tesla sitting on a chair, leaning on his hand and looking into the camera">
-                <figcaption> Image of Nikola Tesla sitting in chair looking at camera while leaning on hand </figcaption>
-            </figure>
-        </section>
+                <figure>
+                    <figcaption> Image of Nikola Tesla </figcaption>
+                    <img class="mainimg1" src="images/Nikola Tesla.jpg" alt="black and white portrait picture of Nikola-Tesla"> 
 
-        <section>
-            <h2> Quotes </h2>
-            <q cite="https://www.motiva.art/blog/10-ingenious-nikola-tesla-quotes-gems-from-the-genius/"> The desire that guides me in all I do is the desire to harness the forces of nature to the service of mankind. </q>
-        </section>
+                <p> <strong>Nikola Tesla </strong> (born July 9/10, 1856, Smiljan, Austrian Empire [now in Croatia]—died January 7, 1943, New York, New York, U.S.) 
+                    Serbian American inventor and engineer who discovered and patented the rotating magnetic field, the basis of most <i>alternating-current machinery</i>.
+                    He also developed the three-phase system of electric power transmission. 
+                    He immigrated to the United States in 1884 and sold the patent rights to his system of alternating-current dynamos, transformers, and motors to George Westinghouse.
+                    In 1891 he invented the Tesla coil, an induction coil widely used in radio technology.</p>
+                </figure>
 
-    </main>
+                <table>
+                    <thread>
+                        <tr>
+                            <th> First Name </th>
+                            <th> Last Name </th>
+                            <th> Occupations </th>
+                            <th> Projects </th>
+                            <th> Resting Place </th>
+                        </tr>
+                    </thread>
+
+                    <body>
+                        <tr>
+                            <td rowspan="2"> Nikola </td>
+                            <td rowspan="2"> Tesla </td>
+                            <td> Inventer </td>
+                            <td> Alternating Current </td>
+                            <td rowspan="2"> Serbia </td>
+                        </tr>
+
+                        <tr>
+                            <td> Engineer </td>
+                            <td> High-voltage </td>
+                        </tr>
+
+                    </body>
+                </table>
+            </main>
+
+            <h2 id="quotes"> Quotes </h2>
+                <q cite="https://www.motiva.art/blog/10-ingenious-nikola-tesla-quotes-gems-from-the-genius/"> The desire that guides me in all I do is the desire to harness the forces of nature to the service of mankind. </q>
 
 
+    </section>
 
     <aside>
         <h2> Additional Information </h2>
@@ -66,11 +103,7 @@
         </ul>
     </aside>
 
-
-
-
-
-    <footer>
+    <footer class="class1">
         <p> &copy; Meeran Haq, 2023 </p>
     </footer>
     
