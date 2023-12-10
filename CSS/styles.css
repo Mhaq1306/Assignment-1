@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     font: 20px Arial, sans-serif;
-    background-color: grey;
+    background-color: #4B444B;
     text-shadow: 2px 2px 2px #7c7c7c;
 }
 
@@ -29,7 +29,7 @@ aside {
     color:  rgb(148, 148, 148);
     border: 5px solid black;
     border-radius: 5px;
-    background:  hsl(300, 6%, 50%) url(https://cdn1.vectorstock.com/i/1000x1000/92/80/lightning-seamless-pattern-on-a-black-background-vector-4499280.jpg) center center / cover no-repeat;
+    background:  #4B444B url(https://cdn1.vectorstock.com/i/1000x1000/92/80/lightning-seamless-pattern-on-a-black-background-vector-4499280.jpg) center center / cover no-repeat;
 }
 
 @media screen and (max-width: 600px) {
@@ -71,7 +71,7 @@ aside {
     background-color: hsl(302, 12%, 60%);
     align-items: stretch;
     text-align: center; 
-    border: 5px solid rgb(97, 97, 97);
+    border: 5px solid rgb(192, 188, 188);
     padding:5px;
     margin: 0.5rem;
     border-radius: 15px;
@@ -98,8 +98,8 @@ aside ul {
 }
 
 aside ul li {
-    border: 0.3rem solid red;
-    background-color: hsl(302, 12%, 60%);
+    border: 5px solid rgb(192, 188, 188);
+    background-color: #4B444B;
     padding:0;
     margin: 10px;
     border-radius: 10px;
@@ -124,9 +124,9 @@ aside>ul>li {
 
 nav{ 
     margin: 10px; 
-    background-color: hsl(302, 12%, 60%);
+    background-color: #4B444B;
     color:  rgb(255, 255, 255);
-    border: 5px solid rgb(97, 97, 97);
+    border: 5px solid rgb(192, 188, 188);
     border-radius:30px; 
     padding: 20px 0; 
     text-align: center; 
@@ -155,7 +155,7 @@ nav ul li{
 
 nav ul a {
     color:  rgb(255, 255, 255);
-    border: 5px solid red;
+    background-color: hsl(300, 6%, 50%);
     padding:5px;
     margin:auto;
     border-radius: 15px;
@@ -196,7 +196,7 @@ h1, h2 {
 }
 
 h2 {
-    background-color: hsl(300, 6%, 50%);
+    background-color: #4B444B;
     text-align: center;
     color:  rgb(255, 255, 255);
     border-radius: 5px;
@@ -209,12 +209,12 @@ figure p {
 }
 
 #galleryid {
-    border: 5px solid rgb(97, 97, 97);
+    border: 5px solid rgb(192, 188, 188);
     border-radius:25px; 
 }
 
 #quotes {
-    padding-top: 2em;
+    padding-top: .5em;
 }
 
 footer p {
@@ -262,7 +262,7 @@ section {
 }
 
 table, td {
-    background-color: hsl(300, 6%, 50%);
+    background-color: hsl(300, 8%, 34%);
     text-align: center;
     color:  rgb(255, 255, 255);
     border-radius: 5px;
