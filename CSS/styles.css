@@ -26,7 +26,7 @@ aside {
     margin: 30px;
     align-items: stretch;
     padding: 5px; 
-    color:  rgb(255, 189, 67);
+    color:  rgb(148, 148, 148);
     border: 5px solid black;
     border-radius: 5px;
     background:  hsl(300, 6%, 50%) url(https://cdn1.vectorstock.com/i/1000x1000/92/80/lightning-seamless-pattern-on-a-black-background-vector-4499280.jpg) center center / cover no-repeat;
@@ -112,7 +112,7 @@ aside ul a {
 }
 
 aside ul li:hover {
-    color:  rgb(255, 189, 67); 
+    color:  rgb(255, 255, 255); 
     background-color:cornsilk;
 }
 
@@ -125,7 +125,7 @@ aside>ul>li {
 nav{ 
     margin: 10px; 
     background-color: hsl(302, 12%, 60%);
-    color:  rgb(255, 189, 67);
+    color:  rgb(255, 255, 255);
     border: 5px solid rgb(97, 97, 97);
     border-radius:30px; 
     padding: 20px 0; 
@@ -154,7 +154,7 @@ nav ul li{
 }
 
 nav ul a {
-    color:  rgb(255, 189, 67);
+    color:  rgb(255, 255, 255);
     border: 5px solid red;
     padding:5px;
     margin:auto;
@@ -185,20 +185,20 @@ nav ul li ul li a{
 }
 
 nav ul li ul li:hover a:hover{
-    color:  rgb(255, 189, 67);
+    color:  rgb(255, 255, 255);
     background-color:cornsilk;
     padding:5px;
 }
 
 h1, h2 {
-    color:  rgb(255, 189, 67);
+    color:  rgb(255, 255, 255);
     font-variant: small-caps;
 }
 
 h2 {
     background-color: hsl(300, 6%, 50%);
     text-align: center;
-    color:  rgb(255, 189, 67);
+    color:  rgb(255, 255, 255);
     border-radius: 5px;
     margin: 10px;
     padding: .5em;
@@ -218,7 +218,7 @@ figure p {
 }
 
 footer p {
-    color:  rgb(255, 189, 67);
+    color:  rgb(255, 255, 255);
     font-size: small;
 }
 
@@ -255,7 +255,7 @@ figcaption {
 section {
     background-color: hsl(300, 6%, 50%);
     text-align: center;
-    color:  rgb(255, 189, 67);
+    color:  rgb(255, 255, 255);
     margin: 25px;
     padding: 1em;
     border: 2px solid black;
@@ -264,7 +264,7 @@ section {
 table, td {
     background-color: hsl(300, 6%, 50%);
     text-align: center;
-    color:  rgb(255, 189, 67);
+    color:  rgb(255, 255, 255);
     border-radius: 5px;
     margin: auto;
     padding: 1em;
